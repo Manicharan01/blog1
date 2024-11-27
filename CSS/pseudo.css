@@ -1,0 +1,34 @@
+.main::first-letter {
+  color: greenyellow;
+  font-size: 40px;
+}
+
+.main::first-line {
+  color: orangered;
+}
+
+.main::before {
+  content: "This is a ";
+}
+
+.main::after {
+  content: " example";
+  color: blue;
+}
+
+.main::selection {
+  background-color: black;
+  color: gold;
+}
+
+ul li {
+  display: inline;
+}
+
+#scroll {
+  width: 200px;
+  border: 2px solid black;
+  height: 200px;
+  overflow-x: none;
+  overflow-y: scroll;
+}

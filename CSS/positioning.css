@@ -1,0 +1,26 @@
+* {
+  border: 2px solid red;
+}
+
+.parent {
+  height: 1000px;
+}
+
+.two {
+  /*position: static;
+  margin-top: 20%;*/
+  /*position: absolute;
+  top: 60px;*/
+  /*position: relative;
+  top: 60px;*/
+  /*position: fixed;
+  top: 0px;
+  left: 200px;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.parent1 {
+  padding-top: 200%;
+}

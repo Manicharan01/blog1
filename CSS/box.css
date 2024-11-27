@@ -1,0 +1,16 @@
+.continue{
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  background-color: #ffd814;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-width: 0px;
+  width: 450px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px white;
+}
+
+.continue:hover {
+  background-color: #dab814;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.color1 {
+  background-color: #ff9933;
+  width: 100vw;
+  height: 33vh;
+}
+
+.color2 {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color3 {
+  background-color: #138808;
+  width: 100vw;
+  height: 33vh;
+}
+
+.chakra {
+  width: 15%;
+}
