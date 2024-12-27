@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.navbar a {
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 3%;
+}
+
+.btn {
+  background-color: #00baf2;
+  border: none;
+  padding: 0.7% 1%;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #002970;
+}
+
+/* Wallet */
+
+.wallet {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+/* Section3 */
+
+.sec3 {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sec3one {
+  width: 100%;
+  background-color: white;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.sec3one h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 34px;
+}
+
+.sec3one p {
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.first {
+  margin: 7% 6% 7% 10%;
+}
+
+.second {
+  margin: 7% 10% 7% 0;
+}
+
+.h11 {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.sec4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec4one {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.sec4two, .sec4three, .sec4four {
+  padding-top: 5%;
+}

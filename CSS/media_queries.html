@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @media all and (max-width: 576px) {
+      .one {
+        color: green;
+        background-color: yellow;
+      }
+    }
+
+    @media all and (min-width: 576px) and (max-width: 768px) {
+      .one {
+        background-color: red;
+        color: aqua
+      }
+    }
+
+    @media all and (min-width: 768px) and (max-width: 992px) {
+      .one {
+        color: blue;
+        background-color: skyblue;
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="one">Media Queries</h1>
+</body>
+
+</html>

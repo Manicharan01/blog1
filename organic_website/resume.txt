@@ -1,0 +1,7 @@
+Home section meaning -> short note -> social media icons
+Skillset -> Languages -> frameworks(flask, bootstrap) -> sql -> tools -> deployment(vercel) -> Progress
+Projects -> About project -> deployment link -> tools -> languages
+Contact -> Map, address, phone number, email
+Copyright and designed by me
+Resume in navbar resume should be downloaded
+Navbar -> 

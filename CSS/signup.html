@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="icon"
+    href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Ffavicon-png-favicon-1024.png&f=1&nofb=1&ipt=47e6e03969b57ffd8661d485b662639aa4bfab4ba37f966e86caff38fe850bf5&ipo=images" />
+  <link rel="stylesheet" href="signup.css">
+  <script src="https://kit.fontawesome.com/4deb59046a.js" crossorigin="anonymous"></script>
+  <style>
+    @media devicetype and (max-width: 576px) {
+      .one {
+        color: green;
+        background-color: yellow;
+      }
+    }
+  </style>  
+</head>
+
+<body>
+  <section class="main">
+    <div class="one">
+      <img src="https://cdn.dribbble.com/users/277921/screenshots/4223608/gw-dribble.gif" width="100%" alt="gif" />
+    </div>
+    <div class="two">
+      <form id="formy">
+       <label><i class="fa-solid fa-user"></i> Username</label> 
+       <input type="text" placeholder="Eg: John12" required>
+       <label><i class="fa-solid fa-envelope"></i> Email</label>
+       <input type="email" placeholder="Eg: john@gmail.com" required>
+       <label><i class="fa-solid fa-phone"></i> Phone Number</label>
+       <input type="text" placeholder="Eg: 1234567890" required>
+       <label><i class="fa-solid fa-lock"></i> Password</label>
+       <input type="password" placeholder="Eg: 1234567890" required>
+       <label><i class="fa-solid fa-lock"></i> Confirm Password</label>
+       <input type="password" placeholder="Eg: 1234567890" required>
+       <div class="check">
+        <input type="checkbox" />
+        <p>I Accept the Terms and Conditions</p>
+       </div>
+       <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <h5>Already have an account? <a href="login.html">Login <i class="fa-solid fa-right-from-bracket"></a></h5>
+    </div>
+  </section>
+</body>
+
+</html>
